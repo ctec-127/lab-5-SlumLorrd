@@ -81,7 +81,7 @@
         }
         // created a for loop to display errors if there are any.
         if (count($error_bucket) > 0) {
-            echo "<p><em>* These fields must be filled in.</em></p>";
+            echo "<p><strong> These fields need to be filled in;</strong></p>";
             echo "<ul>";
             for ($i = 0; $i < count($error_bucket); $i++) {
                 echo "<li>" . $error_bucket[$i] . "</li>";
