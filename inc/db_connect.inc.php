@@ -3,7 +3,7 @@
 // PDO Code Start
 $host = 'localhost';
 $user = 'root';
-$password = 'kona1130';
+$password = '';
 $dbname = 'ctec';
 
 // DSN - Data Source Name
